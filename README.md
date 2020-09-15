@@ -1,8 +1,6 @@
-# Implementation of LF-model
+# Implementation of Liljencrants-Fant (LF) model of the glottal flow
 
-**Note:** functional code in `LF.py`
-
-I used <https://pdfs.semanticscholar.org/1418/a18b9c353de44b0c087419d08abae4d0e733.pdf> for this. Also from that paper is this diagram:
+The implementation uses [(Gobl 2017)](<https://pdfs.semanticscholar.org/1418/a18b9c353de44b0c087419d08abae4d0e733.pdf>). Also from that paper is this diagram:
 
 ![LF-model](LF-model.png)
 
@@ -35,3 +33,9 @@ Typical values for male **vowels** are $F_a$ = 700 Hz, $R_k$ = 0.30, $R_g$ = 1.2
 Typical values for female **vowels** are $F_a$ = 400 Hz, $R_k$ = 0.30, $R_g$ = 1.00.
 
 These are implemented in `gen_param()` in `LF.py`.
+
+## Files
+
+`LF.py` implements the model and helper routines.
+
+The two notebooks show use cases. Good luck!
