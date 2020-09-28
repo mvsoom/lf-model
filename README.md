@@ -1,4 +1,4 @@
-# Implementation of Liljencrants-Fant (LF) model of the glottal flow
+# Python implementation of Liljencrants-Fant (LF) model of the glottal flow
 
 The implementation uses [(Gobl 2017)](<https://pdfs.semanticscholar.org/1418/a18b9c353de44b0c087419d08abae4d0e733.pdf>). Also from that paper is this diagram:
 
